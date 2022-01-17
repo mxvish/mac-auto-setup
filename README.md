@@ -2,5 +2,8 @@
 My configuration files to setup mac
 
 ## file locations
-| vimrc | ~/.vimrc |
-| zshrc | ~/.zshrc |
+
+|file name |location |
+|----------|----------|
+|vimrc |~/.vimrc |
+|zshrc |~/.zshrc |
