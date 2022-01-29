@@ -5,6 +5,5 @@ My configuration files to setup mac
 
 |file name |location |
 |----------|----------|
-|init.el| ~/.emacs.d/init.el|
 |vimrc |~/.vimrc |
 |zshrc |~/.zshrc |
