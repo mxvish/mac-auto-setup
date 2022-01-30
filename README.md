@@ -7,3 +7,4 @@ My configuration files to setup mac
 |----------|----------|
 |vimrc |~/.vimrc |
 |zshrc |~/.zshrc |
+|Rprofile |~/.Rprofile |
