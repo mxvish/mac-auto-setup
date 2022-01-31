@@ -5,5 +5,12 @@ sudo mv -f Public .Public
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-pip install django django-tailwind gym numpy matplotlib
-brew install lame mplayer
+brew install cmus
+brew install lame
+brew install mplayer
+
+pip install django
+pip install django-tailwind
+pip install gym
+pip install numpy
+pip install matplotlib
