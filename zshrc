@@ -1,4 +1,5 @@
 zmodload zsh/zprof
+#sort <file> | uniq -c  find duplicate lines in a file
 
 alias bi='brew install'
 alias br='brew remove'
@@ -10,9 +11,10 @@ function ds {
     url+=${@}
     open $url
 }
+alias di='https://discord.com/channels/@me'
 alias du='diskutil umount /Volumes/UNTITLED'
 alias g='open https://gakujo.shizuoka.ac.jp/portal/'
-alias gi='open https://github.com/kenteroshima'
+alias gi='open "https://github.com/kenteroshima?tab=repositories"'
 alias h='open "https://www.youtube.com/channel/UCKHMZUmGJeXD6wysw-3ur6Q/videos"'
 alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
@@ -24,9 +26,11 @@ alias op='v ~/.zshrc;source ~/.zshrc'
 alias p='python3 -O'
 alias pb='pbcopy <'
 alias pm='python3 manage.py runserver'
+alias pr='open "https://projecteuler.net/archives"'
 alias r='ranger'
 alias re='sudo reboot'
 alias rmr='rm -rf'
+alias rs='Rscript'
 alias sl='open https://app.slack.com/client'
 alias t='open https://todoist.com/app/upcoming'
 alias u='brew update && brew upgrade'
@@ -49,4 +53,5 @@ export PS1="%1d $"
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/kentaoshima/.vimpkg/bin"
 
+export LANG=en_US.UTF-8
 export LC_CTYPE=ja_JP.UTF-8
