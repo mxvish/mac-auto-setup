@@ -14,3 +14,5 @@ pip install django-tailwind
 pip install gym
 pip install numpy
 pip install matplotlib
+
+mv Rprofile .Rprofile
