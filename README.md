@@ -13,5 +13,6 @@ sudo sh macsetup.sh
 
 |file name |location |
 |----------|----------|
+|Rprofile |~/.Rprofile |
 |vimrc |~/.vimrc |
 |zshrc |~/.zshrc |
