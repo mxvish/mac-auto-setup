@@ -16,3 +16,5 @@ pip install numpy
 pip install matplotlib
 
 mv Rprofile .Rprofile
+mv vimrc .vimrc
+mv zshrc .zshrc
