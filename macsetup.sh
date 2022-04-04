@@ -14,6 +14,7 @@ pip install django
 pip install django-tailwind
 pip install gym
 pip install matplotlib
+pip install notebook
 pip install numpy
 pip install torch torchvision sklearn
 
