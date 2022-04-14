@@ -13,9 +13,10 @@ brew install r
 pip install django
 pip install django-tailwind
 pip install gym
+pip install jupyterlab
 pip install matplotlib
 pip install notebook
-pip install numpy
+pip install numpy pandas seaborn
 pip install torch torchvision sklearn
 
 mv Rprofile ~/.Rprofile
