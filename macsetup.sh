@@ -1,5 +1,3 @@
-sudo mv -f Applications ~/.Applications                                           
-sudo mv -f Movies ~/.Movies
 sudo mv -f Public ~/.Public
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
