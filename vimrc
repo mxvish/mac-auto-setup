@@ -38,8 +38,6 @@ nnoremap <C-j> :wincmd j<CR>
 nnoremap <C-k> :wincmd k<CR>
 nnoremap <C-l> :wincmd l<CR>
 nnoremap <C-q> :q<CR>
-nnoremap <C-w> :w<CR>
-nnoremap <C-x> :x<CR>
 nnoremap r :wincmd v<bar> :Ex<CR>
 
 inoremap {<CR> {<CR>}<ESC>04xko
@@ -56,4 +54,5 @@ inoremap <C-f> <Right>
 inoremap <C-b> <Left>
 inoremap <C-d> <Del>
 
-nmap <Esc><Esc> :nohlsearch<Esc>
+nmap <Esc> :nohlsearch<Esc>
+autocmd TextChanged,TextChangedI <buffer> write          
