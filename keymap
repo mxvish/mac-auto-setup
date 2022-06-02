@@ -1,0 +1,3 @@
+keymap	0	LINE_BEGIN
+keymap	d	NEXT_PAGE
+keymap	u	PREV_PAGE
