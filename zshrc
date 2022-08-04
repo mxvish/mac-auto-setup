@@ -18,7 +18,6 @@ alias g='open -a /Applications/Google\ Chrome.app https://gakujo.shizuoka.ac.jp/
 alias gi='open "https://github.com/mxvish?tab=repositories"'
 alias hl='open "https://www.lib-city-hamamatsu.jp/licsxp-opac/WOpacEsSchCmpdDispAction.do?moveToGamenId=esschcmpd"'
 alias jl='jupyter lab'
-alias jn='jupyter notebook'
 alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
 alias kn='open "https://www.kyorindo-netsuper.jp"'
