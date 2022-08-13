@@ -7,7 +7,7 @@ brew install lame
 brew install mpg321
 brew install mplayer
 brew install r
-brew install w3m
+brew link mysql-client --force
 
 pip install django
 pip install django-tailwind
