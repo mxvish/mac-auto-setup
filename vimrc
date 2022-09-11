@@ -48,11 +48,14 @@ inoremap ( ()<Left>
 inoremap 「 「」<Left>
 inoremap （ （）<Left>
 
-inoremap <C-e> <End>
 inoremap <C-a> <Home>
-inoremap <C-f> <Right>
 inoremap <C-b> <Left>
 inoremap <C-d> <Del>
+inoremap <C-e> <End>
+inoremap <C-f> <Right>
+inoremap <C-h> <BackSpace>
+inoremap <C-n> <Down>                                                           
+inoremap <C-p> <Up>
 
 nmap <Esc> :nohlsearch<Esc>
 autocmd TextChanged,TextChangedI <buffer> write          
