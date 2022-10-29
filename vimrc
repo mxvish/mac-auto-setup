@@ -39,6 +39,7 @@ inoremap {<CR> {<CR>}<ESC>04xko
 inoremap [ []<Left>
 inoremap ' ''<Left>
 inoremap " ""<Left>
+inoremap ` ``<Left>
 inoremap ( ()<Left>
 inoremap 「 「」<Left>
 inoremap （ （）<Left>
