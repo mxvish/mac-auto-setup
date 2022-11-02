@@ -1,4 +1,6 @@
 # mac_setup
+[![MIT License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://www.opensource.org/licenses/MIT)
+
 Configuration files to setup mac
 
 ## Installation & Usage
