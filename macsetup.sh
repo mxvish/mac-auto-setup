@@ -10,7 +10,7 @@ pip install django
 pip install django-tailwind
 pip install gym
 pip install jupyterlab
-pip install -U matplotlib
+python3 -m pip install -U matplotlib
 pip install notebook
 pip install numpy pandas seaborn
 pip install torch torchvision sklearn
