@@ -31,7 +31,7 @@ nnoremap <C-h> :wincmd h<CR>
 nnoremap <C-j> :wincmd j<CR>
 nnoremap <C-k> :wincmd k<CR>
 nnoremap <C-l> :wincmd l<CR>
-nnoremap <C-q> :q<CR>
+nnoremap <C-q> :q!<CR>
 nnoremap <C-w> :w<CR>
 nnoremap r :wincmd v<bar> :Ex<CR>
 
