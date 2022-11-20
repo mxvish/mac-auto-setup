@@ -16,8 +16,7 @@ set ignorecase
 set incsearch
 set nocompatible
 set noswapfile
-set ruler
-set rulerformat=%l
+set nu
 set shiftwidth=4
 set smartindent
 set tabstop=4
