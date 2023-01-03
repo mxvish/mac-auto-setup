@@ -49,8 +49,6 @@ inoremap <C-d> <Del>
 inoremap <C-e> <End>
 inoremap <C-f> <Right>
 inoremap <C-h> <BackSpace>
-inoremap <C-n> <Down>
-inoremap <C-p> <Up>
 
 nmap <Esc> :nohlsearch<Esc>
 autocmd TextChanged,TextChangedI <buffer> write
