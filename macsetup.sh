@@ -3,7 +3,7 @@ sudo mv -f Public ~/.Public
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-brew install brave-browser lame mpg321 mplayer python-tk r
+brew install brave-browser lame mpg321 mplayer python-tk r ranger
 brew link mysql-client --force
 
 pip install django
