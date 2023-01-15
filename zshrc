@@ -62,7 +62,7 @@ function us {
     url+=${@}
     open $url
 }
-alias uv='diskutil umount /Volumes/UNTITLED'
+alias uv='diskutil umount force /Volumes/UNTITLED'
 alias v='vim'
 alias va='v ~/a;pb ~/a'
 alias vs='open https://docs.google.com/spreadsheets/d/1iuQ-DxULNRZp0QisqnwkH33GpLA8dkec/'
