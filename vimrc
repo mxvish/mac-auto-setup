@@ -1,10 +1,7 @@
-" :%y(all copy)
-
 let &t_SI.="\e[5 q"
 let &t_SR.="\e[5 q"
 let &t_EI.="\e[1 q"
 
-"colorscheme murphy
 language en_US
 set autoread
 set backspace=indent,eol,start
