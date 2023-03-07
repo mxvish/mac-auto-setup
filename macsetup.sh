@@ -16,6 +16,7 @@ pip install numpy pandas seaborn
 pip install torch torchvision sklearn
 
 mv Rprofile ~/.Rprofile
+mv init.el ~/.emacs
 mv vimrc ~/.vimrc
 mv zshrc ~/.zshrc
 mv keymap ~/.w3m/keymap
