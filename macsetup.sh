@@ -20,3 +20,5 @@ mv init.el ~/.emacs
 mv vimrc ~/.vimrc
 mv zshrc ~/.zshrc
 mv keymap ~/.w3m/keymap
+
+touch ~/.hushlogin
