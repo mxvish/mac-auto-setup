@@ -16,7 +16,10 @@ pip install numpy pandas seaborn
 pip install torch torchvision sklearn
 
 mv Rprofile ~/.Rprofile
+
+wget https://raw.githubusercontent.com/mxvish/init.el/main/init.el
 mv init.el ~/.emacs
+
 mv vimrc ~/.vimrc
 mv zshrc ~/.zshrc
 
