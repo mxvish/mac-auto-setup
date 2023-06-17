@@ -9,7 +9,6 @@ set cursorline
 set foldmethod=indent
 set expandtab
 set hlsearch
-set ignorecase
 set incsearch
 set nocompatible
 set noswapfile
