@@ -24,3 +24,5 @@ mv vimrc ~/.vimrc
 mv zshrc ~/.zshrc
 
 touch ~/.hushlogin
+
+rm LICENSE README.md
