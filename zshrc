@@ -18,7 +18,7 @@ function aw {
 alias bi='brew install'
 alias br='brew remove'
 alias bs='brew search'
-alias c='sudo rm -rf ~/Library/Caches/* && sudo rm /var/log/asl/*.asl && brew autoremove && brew cleanup && find . -name .DS_Store -delete && find . -name .Rhistory -delete && find . -name .ipynb_checkpoints -delete'
+alias c='sudo rm -rf ~/Library/Caches/*; sudo rm /var/log/asl/*.asl; brew autoremove; brew cleanup; find . -name .DS_Store -delete; find . -name .Rhistory -delete; find . -name .ipynb_checkpoints -delete'
 alias cac='open https://docs.google.com/spreadsheets/d/1ECwWvDWYEH4iZL_Hy9V2Xqy0NOVmpsAP/'
 alias cdd='cd ~/downloads'
 alias co='open https://chat.openai.com'
@@ -64,7 +64,7 @@ alias rs='open "https://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html"'
 alias s='open https://app.slack.com/client'
 alias t='open https://todoist.com/app'
 alias te='open https://teams.microsoft.com'
-alias u='brew update && brew upgrade && python3 -m pip install --upgrade pip'
+alias u='brew update; brew upgrade; python3 -m pip install --upgrade pip'
 function us {
     local url="https://opac.lib.shizuoka.ac.jp/opac/search?autoDetail=true&q="
     url+=${@}
