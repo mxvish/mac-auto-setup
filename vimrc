@@ -31,7 +31,7 @@ nnoremap <C-q> :q!<CR>
 nnoremap <C-w> :w<CR>
 nnoremap r :wincmd v<bar> :Ex<CR>
 
-inoremap {<CR> {<CR>}<ESC>04xko
+inoremap { {}<Left>
 inoremap [ []<Left>
 inoremap ' ''<Left>
 inoremap " ""<Left>
