@@ -49,7 +49,6 @@ alias li='clisp'
 alias m='open https://mail.google.com/mail/u/0/h/'
 alias mk='mkdir'
 alias mp='mpg321 -qg 5'
-alias n='neofetch'
 alias o='open https://onedrive.live.com/'
 alias ol='open https://overleaf.com'
 alias ou='open https://outlook.office.com/mail'
@@ -67,6 +66,7 @@ alias sr='open https://ib.surugabank.co.jp/im/IBGate'
 alias t='open https://todoist.com/app'
 alias te='open https://teams.microsoft.com'
 alias u='brew update; brew upgrade; python3 -m pip install --upgrade pip'
+alias up='uptime'
 function us {
     local url="https://opac.lib.shizuoka.ac.jp/opac/search?autoDetail=true&q="
     url+=${@}
