@@ -69,7 +69,7 @@ alias s='open https://app.slack.com/client'
 alias sr='open https://ib.surugabank.co.jp/im/IBGate'
 alias t='open https://todoist.com/app'
 alias te='open https://teams.microsoft.com'
-alias u='brew update; brew upgrade; python3 -m pip install --upgrade pip'
+alias u='brew doctor; brew update; brew upgrade; python3 -m pip install --upgrade pip'
 alias up='uptime'
 function us {
     local url="https://opac.lib.shizuoka.ac.jp/opac/search?autoDetail=true&q="
