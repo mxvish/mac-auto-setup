@@ -15,6 +15,7 @@ function aw {
     url+="&t=brave&ia=web"
     open $url
 }
+alias b='open "https://blog.tinect.jp/?author=1598"'
 alias bi='brew install'
 alias br='brew remove'
 alias bs='brew search'
