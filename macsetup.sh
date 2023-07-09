@@ -3,7 +3,7 @@ sudo mv -f Public ~/.Public
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-brew install brave-browser google-japanese-ime lame memory-cleaner mpg321 mplayer python-tk r ranger rstudio wget
+brew install brave-browser google-japanese-ime memory-cleaner python-tk r ranger rstudio wget
 brew link mysql-client --force
 
 pip install django
