@@ -6,14 +6,11 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 brew install brave-browser google-japanese-ime memory-cleaner python-tk r ranger rstudio wget zoom
 brew link mysql-client --force
 
-pip install django
-pip install django-tailwind
 pip install gym
 pip install jupyterlab
 python3 -m pip install -U matplotlib
 pip install notebook
-pip install numpy pandas seaborn
-pip install torch torchvision sklearn
+pip install numpy pandas
 
 mv Rprofile ~/.Rprofile
 
