@@ -22,4 +22,6 @@ mv zshrc ~/.zshrc
 
 touch ~/.hushlogin
 
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+
 rm LICENSE README.md
