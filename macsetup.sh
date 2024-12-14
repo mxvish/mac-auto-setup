@@ -33,4 +33,6 @@ system settings
     trackpad
         secondary click
             click in bottom right corner
+    desktop & dock
+        check automatically hide and show the dock
 """
