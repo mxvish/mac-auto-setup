@@ -35,4 +35,10 @@ system settings
             click in bottom right corner
     desktop & dock
         check automatically hide and show the dock
+    control center
+        show in menubar
+            bluetooth
+        don't show in menubar
+            now playing
+            spotlight
 """
