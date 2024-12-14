@@ -25,3 +25,12 @@ touch ~/.hushlogin
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
 rm LICENSE README.md
+
+"""
+system settings
+    keyboard layouts
+        use australian english and google japanese input
+    trackpad
+        secondary click
+            click in bottom right corner
+"""
