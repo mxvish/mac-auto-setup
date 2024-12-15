@@ -4,18 +4,17 @@ sudo mv -f Public ~/.Public
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 brew install google-japanese-ime memory-cleaner python-tk r ranger rstudio wget zoom
-brew link mysql-client --force
+#brew link mysql-client --force
 
+"""
 pip install gym
 pip install jupyterlab
 python3 -m pip install -U matplotlib
 pip install notebook
 pip install numpy pandas
+"""
 
 mv Rprofile ~/.Rprofile
-
-wget https://raw.githubusercontent.com/mxvish/init.el/main/init.el
-mv init.el ~/.emacs
 
 mv vimrc ~/.vimrc
 mv zshrc ~/.zshrc
