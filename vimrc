@@ -6,7 +6,7 @@ language en_US
 set autoread
 set backspace=indent,eol,start
 set cursorline
-set foldmethod=indent
+"set foldmethod=indent
 set expandtab
 set hlsearch
 set incsearch
