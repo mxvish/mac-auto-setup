@@ -17,7 +17,7 @@ function aw {
 }
 alias b='open http://mubou.seesaa.net/'
 alias bi='brew install'
-alias br='brew remove'
+#alias br='brew remove'
 alias bs='brew search'
 alias c='open https://chatgpt.com'
 alias cac='open https://docs.google.com/spreadsheets/d/1ECwWvDWYEH4iZL_Hy9V2Xqy0NOVmpsAP/'
@@ -45,7 +45,7 @@ function gw {
     url+="&t=brave&ia=web"
     open $url
 }
-alias h='open "https://hands.net"'
+alias h='open https://hands.net'
 alias hl='open "https://www.lib-city-hamamatsu.jp/licsxp-opac/WOpacEsSchCmpdDispAction.do?moveToGamenId=esschcmpd"'
 function i {
     local url="https://duckduckgo.com/?q=wiki+"
@@ -68,8 +68,8 @@ alias kn='open "https://www.kyorindo-netsuper.jp"'
 alias l='ls -a ~/downloads'
 alias li='open -a /Applications/LINE.app'
 alias lk='open https://www.linkedin.com/in/koshima/'
-alias m='open -a /Applications/Thunderbird.app'
 #alias m='open https://mail.google.com/mail/u/0/'
+alias m='aerc'
 alias mj='open https://www.muji.com/jp/ja/store'
 alias mk='mkdir'
 alias mp='mpg321 -qg 10'
@@ -134,3 +134,5 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
 
 export LANG=en_US.UTF-8
 export LC_CTYPE=ja_JP.UTF-8
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
