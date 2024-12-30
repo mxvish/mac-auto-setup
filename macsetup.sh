@@ -4,7 +4,7 @@ sudo mv -f Downloads downloads
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-brew install google-japanese-ime pdfsum-basic python-tk r ranger wget
+brew install brave-browser google-japanese-ime pdfsam-basic python-tk r ranger wget
 #brew link mysql-client --force
 
 """
