@@ -4,7 +4,25 @@ sudo mv -f Downloads downloads
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-brew install aerc discord google-japanese-ime microsoft-excel microsoft-powerpoint microsoft-word nodejs pdfsam-basic python-tk r ranger wget
+packages=(
+	aerc
+	discord
+	google-japanese-ime
+	microsoft-excel
+	microsoft-powerpoint
+	microsoft-word
+	nodejs
+	pdfsam-basic
+	python-tk
+	r
+	ranger
+	wget
+)
+
+for i in "${packages[@]}"; do 
+    brew install "$i"; 
+done
+
 #brew link mysql-client --force
 
 """
