@@ -51,6 +51,9 @@ system settings
     trackpad
         secondary click
             click in bottom right corner
+    spotlight
+    	search results
+			check applications only
     desktop & dock
         check automatically hide and show the dock
     control center
