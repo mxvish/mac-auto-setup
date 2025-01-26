@@ -6,6 +6,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 packages=(
 	aerc
+ 	balenaetcher
 	discord
 	google-japanese-ime
 	microsoft-excel
