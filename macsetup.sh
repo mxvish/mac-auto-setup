@@ -17,6 +17,7 @@ packages=(
 	python-tk
 	r
 	ranger
+	vlc
 	wget
 )
 
