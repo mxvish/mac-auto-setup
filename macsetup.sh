@@ -45,6 +45,7 @@ touch ~/.hushlogin
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
 defaults write com.apple.dock persistent-apps -array
+defaults write com.apple.dock autohide -bool true
 killall Dock
 
 rm LICENSE README.md
