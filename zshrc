@@ -3,7 +3,6 @@ zmodload zsh/zprof
 #scp USERNAME@IPADDRESS:/path path
 #ifconfig | grep netmask
 
-alias 5='sudo osascript -e "set Volume 0.05"'
 function a {
     local url="https://amazon.co.jp/s?k="
     url+=${@}
@@ -17,7 +16,6 @@ function aw {
 }
 alias b='open http://mubou.seesaa.net/'
 alias bi='brew install'
-#alias br='brew remove'
 alias bs='brew search'
 alias c='open https://chatgpt.com'
 alias cac='open https://docs.google.com/spreadsheets/d/1ECwWvDWYEH4iZL_Hy9V2Xqy0NOVmpsAP/'
@@ -61,7 +59,6 @@ function ii {
     url=`echo "$url" | sed 's/pixiv/dic.nicovideo/'`
     open $url
 }
-alias j='open https://shonenjumpplus.com'
 alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
 alias kn='open "https://www.kyorindo-netsuper.jp"'
@@ -79,7 +76,6 @@ alias o='open -a /Applications/Safari.app "https://onedrive.live.com/?gologin=1"
 alias ou='open https://outlook.office.com/mail'
 alias op='v ~/.zshrc;source ~/.zshrc'
 alias p='python3'
-alias p1='python3.11'
 alias pb='pbcopy <'
 alias pe='open https://www.perplexity.ai/'
 alias pr='open https://projecteuler.net/archives'
@@ -134,5 +130,4 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
 
 export LANG=en_US.UTF-8
 export LC_CTYPE=ja_JP.UTF-8
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
