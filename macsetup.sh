@@ -27,14 +27,6 @@ done
 
 #brew link mysql-client --force
 
-"""
-pip install gym
-pip install jupyterlab
-python3 -m pip install -U matplotlib
-pip install notebook
-pip install numpy pandas
-"""
-
 mv Rprofile ~/.Rprofile
 
 mv vimrc ~/.vimrc
