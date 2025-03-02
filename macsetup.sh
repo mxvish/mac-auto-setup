@@ -19,6 +19,7 @@ packages=(
 	ranger
 	vlc
 	wget
+    zoom
 )
 
 for i in "${packages[@]}"; do 
