@@ -7,6 +7,6 @@ Configuration files to setup mac
 
 ```sh
 git clone https://github.com/mxvish/mac-auto-setup.git
-mv mac-auto-setup/macsetup.sh ~
-sh macsetup.sh
+mv mac-auto-setup/setup.sh ~
+sh setup.sh
 ```
