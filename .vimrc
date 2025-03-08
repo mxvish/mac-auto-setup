@@ -18,9 +18,9 @@ set smartindent
 set tabstop=4
 syntax enable
 
-call plug#begin('~/.vim/plugged')
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-call plug#end()
+"call plug#begin('~/.vim/plugged')
+"    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"call plug#end()
 
 nnoremap <C-h> :wincmd h<CR>
 nnoremap <C-j> :wincmd j<CR>
