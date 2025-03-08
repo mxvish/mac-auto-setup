@@ -45,6 +45,7 @@ function gw {
     open $url
 }
 alias h='open https://hands.net'
+alias ha='open Documents/hamamatsugarbage.pdf'
 alias hl='open "https://www.lib-city-hamamatsu.jp/licsxp-opac/WOpacEsSchCmpdDispAction.do?moveToGamenId=esschcmpd"'
 function i {
     local url="https://duckduckgo.com/?q=wiki+"
@@ -64,6 +65,7 @@ alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
 alias kn='open "https://www.kyorindo-netsuper.jp"'
 alias l='ls -a ~/downloads'
+alias le='less'
 alias li='open -a /Applications/LINE.app'
 alias lk='open https://www.linkedin.com/in/koshima/'
 #alias m='open https://mail.google.com/mail/u/0/'
@@ -78,6 +80,7 @@ alias o='open -a /Applications/Safari.app "https://onedrive.live.com/?gologin=1"
 alias ou='open https://outlook.office.com/mail'
 alias op='v ~/.zshrc;source ~/.zshrc'
 alias p='python3'
+alias pa='open https://paypal.com/'
 alias pb='pbcopy <'
 alias pe='open https://www.perplexity.ai/'
 alias pr='open https://projecteuler.net/archives'
