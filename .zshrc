@@ -18,6 +18,7 @@ alias b='open http://mubou.seesaa.net/'
 alias bi='brew install'
 alias bs='brew search'
 alias c='open https://gemini.google.com'
+alias ca='open https://calendar.google.com'
 alias cac='open https://docs.google.com/spreadsheets/d/1ECwWvDWYEH4iZL_Hy9V2Xqy0NOVmpsAP/'
 alias cdd='cd ~/downloads'
 alias cg='open https://chatgpt.com'
@@ -66,12 +67,14 @@ alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
 alias kn='open "https://www.kyorindo-netsuper.jp"'
 alias l='open -a /Applications/LINE.app'
+alias lb='open https://liberaluni.com'
 alias le='less'
 alias lk='open https://www.linkedin.com/in/koshima/'
-#alias m='open https://mail.google.com/mail/u/0/'
 alias m='aerc'
 alias mj='open https://www.muji.com/jp/ja/store'
 alias mk='mkdir'
+alias ml='open https://mail.google.com/mail/u/0/'
+alias mn='open "https://mypage-shinsotsusyokai.mynavi.jp/top?gig_actions=sso.login"'
 alias mp='mpg321 -qg 10'
 #alias mp='mpg321 -qg 3'
 alias mu='open "https://entry11.bk.mufg.jp/ibg/dfw/APLIN/loginib/login?_TRANID=AA000_001&link_id=direct_zandaka_login"'
@@ -92,6 +95,12 @@ function pu {
 alias r='ranger'
 alias rb='open "https://fes.rakuten-bank.co.jp/MS/main/RbS?CurrentPageID=START&&COMMAND=LOGIN"'
 
+function rc {
+    local url="https://duckduckgo.com/?q=rosettacode+"
+    url+=${@}
+    url+="&t=brave&ia=web"
+    open $url
+}
 alias re='open -a /System/Applications/Reminders.app'
 alias rr='rm -rf'
 alias rs='open "https://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html"'
