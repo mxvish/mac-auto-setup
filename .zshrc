@@ -28,6 +28,7 @@ alias d='open https://drive.google.com/drive/recent'
 alias de='open https://deepl.com'
 alias di='open -a /Applications/Discord.app'
 alias dh='df -h'
+alias dl='ls -a ~/downloads'
 function f {
     local url="https://duckduckgo.com/?q=freebsd+wiki+"
     url+=${@}
@@ -64,9 +65,8 @@ function ii {
 alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
 alias kn='open "https://www.kyorindo-netsuper.jp"'
-alias l='ls -a ~/downloads'
+alias l='open -a /Applications/LINE.app'
 alias le='less'
-alias li='open -a /Applications/LINE.app'
 alias lk='open https://www.linkedin.com/in/koshima/'
 #alias m='open https://mail.google.com/mail/u/0/'
 alias m='aerc'
