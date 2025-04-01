@@ -67,10 +67,14 @@ alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
 alias kn='open "https://www.kyorindo-netsuper.jp"'
 alias l='open -a /Applications/LINE.app'
-alias lb='open https://liberaluni.com'
+function lb {
+    local url="https://liberaluni.com/?s="
+    url+=${@}
+    open $url
+}
 alias le='less'
 alias lk='open https://www.linkedin.com/in/koshima/'
-alias m='aerc'
+alias m='open -a "/Applications/Microsoft Outlook.app"'
 alias mj='open https://www.muji.com/jp/ja/store'
 alias mk='mkdir'
 alias ml='open https://mail.google.com/mail/u/0/'
@@ -79,7 +83,7 @@ alias mp='mpg321 -qg 10'
 #alias mp='mpg321 -qg 3'
 alias mu='open "https://entry11.bk.mufg.jp/ibg/dfw/APLIN/loginib/login?_TRANID=AA000_001&link_id=direct_zandaka_login"'
 alias n='open https://amplenote.com/notes'
-alias o='open https://outlook.office.com/mail'
+alias ou='open https://outlook.office.com/mail'
 alias on='open -a /Applications/Safari.app "https://onedrive.live.com/?gologin=1"'
 alias op='v ~/.zshrc;source ~/.zshrc'
 alias p='python3'
@@ -119,6 +123,7 @@ function sm {
 alias sr='open https://ib.surugabank.co.jp/im/IBGate'
 alias t='open https://todoist.com/app'
 alias te='open https://teams.microsoft.com'
+alias tg='open https://translate.google.com'
 alias tv='open https://tver.jp/mypage/fav'
 alias u='brew doctor; brew update; brew upgrade'
 alias up='uptime'
