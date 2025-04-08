@@ -39,6 +39,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
 defaults write com.apple.dock persistent-apps -array
 defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock show-recents -bool false
 killall Dock
 
 rm LICENSE README.md
