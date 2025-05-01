@@ -36,8 +36,9 @@ function f {
     url+="&t=brave&ia=web"
     open $url
 }
-alias g='open https://gakujo.shizuoka.ac.jp/portal/'
-alias gi='open "https://github.com/mxvish?tab=repositories"'
+alias g='open "https://github.com/mxvish?tab=repositories"'
+alias ga='open https://gakujo.shizuoka.ac.jp/portal/'
+alias gd='open -a "/Applications/GitHub Desktop.app"'
 alias gm='open https://google.com/maps'
 alias gu='open https://www.gu-global.com/jp/ja/'
 function gw {
@@ -63,6 +64,7 @@ function ii {
     url=`echo "$url" | sed 's/pixiv/dic.nicovideo/'`
     open $url
 }
+alias j='open https://shonenjumpplus.com/search'
 alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
 alias kn='open "https://www.kyorindo-netsuper.jp"'
@@ -73,6 +75,7 @@ function lb {
     open $url
 }
 alias le='less'
+alias lg='date +%H:%M; echo ${@}'
 alias lk='open https://www.linkedin.com/in/koshima/'
 alias m='open -a "/Applications/Microsoft Outlook.app"'
 alias mj='open https://www.muji.com/jp/ja/store'
@@ -83,9 +86,9 @@ alias mp='mpg321 -qg 10'
 #alias mp='mpg321 -qg 3'
 alias mu='open "https://entry11.bk.mufg.jp/ibg/dfw/APLIN/loginib/login?_TRANID=AA000_001&link_id=direct_zandaka_login"'
 alias n='open https://amplenote.com/notes'
-alias ou='open https://outlook.office.com/mail'
-alias on='open -a /Applications/Safari.app "https://onedrive.live.com/?gologin=1"'
+alias o='open -a /Applications/Safari.app "https://onedrive.live.com/?gologin=1"'
 alias op='v ~/.zshrc;source ~/.zshrc'
+alias ou='open https://outlook.office.com/mail'
 alias p='python3'
 alias pa='open https://paypal.com/'
 alias pb='pbcopy <'
@@ -109,7 +112,7 @@ alias re='open -a /System/Applications/Reminders.app'
 alias rr='rm -rf'
 alias rs='open "https://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html"'
 alias s='open https://app.slack.com/client'
-function sc {
+function sg {
     local url="https://scholar.google.com/scholar?q="
     url+=${@}
     open $url
@@ -121,11 +124,12 @@ function sm {
     open $url
 }
 alias sr='open https://ib.surugabank.co.jp/im/IBGate'
+alias ss='open https://www.sbisec.co.jp/ETGate/'
 alias t='open https://todoist.com/app'
 alias te='open https://teams.microsoft.com'
 alias tg='open https://translate.google.com'
 alias tv='open https://tver.jp/mypage/fav'
-alias u='brew doctor; brew update; brew upgrade'
+alias u='brew doctor; brew update; brew upgrade; npm install -g npm@latest'
 alias up='uptime'
 function us {
     local url="https://opac.lib.shizuoka.ac.jp/opac/search?autoDetail=true&q="
@@ -140,6 +144,7 @@ alias vs='open https://docs.google.com/spreadsheets/d/1iuQ-DxULNRZp0QisqnwkH33Gp
 alias vpn='open https://vpn.inf.shizuoka.ac.jp/dana-na/auth/url_3/welcome.cgi'
 alias vv='v ~/.vimrc'
 alias w='open "https://www.accuweather.com/en/jp/hamamatsu-shi/226090/weather-forecast/226090"'
+alias wa='open https://web.whatsapp.com/'
 alias x='open'
 alias y='open "https://www.youtube.com/feed/playlists"'
 
