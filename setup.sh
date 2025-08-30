@@ -8,6 +8,7 @@ packages=(
 	aerc
  	balenaetcher
 	discord
+ 	emacs
 	google-japanese-ime
 	microsoft-excel
 	microsoft-powerpoint
