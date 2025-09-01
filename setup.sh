@@ -18,6 +18,7 @@ packages=(
 	python-tk
 	r
 	ranger
+ 	thunderbird
 	vlc
 	wget
     zoom
