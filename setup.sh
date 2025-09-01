@@ -33,7 +33,7 @@ done
 mv Rprofile ~/.Rprofile
 
 mv vimrc ~/.vimrc
-curl https://raw.githubusercontent.com/mxvish/vimrc/main/vimrc > /var/root/.vimrc
+curl https://raw.githubusercontent.com/mxvish/dotfiles/main/.vimrc > /var/root/.vimrc
 mv zshrc ~/.zshrc
 
 touch ~/.hushlogin
