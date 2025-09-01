@@ -32,7 +32,7 @@ done
 
 mv Rprofile ~/.Rprofile
 
-mv vimrc ~/.vimrc
+curl https://raw.githubusercontent.com/mxvish/dotfiles/main/.vimrc > /home/$USER/.vimrc
 curl https://raw.githubusercontent.com/mxvish/dotfiles/main/.vimrc > /var/root/.vimrc
 mv zshrc ~/.zshrc
 
