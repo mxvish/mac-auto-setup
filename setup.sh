@@ -19,6 +19,7 @@ packages=(
 	r
 	ranger
  	thunderbird
+  tree
 	vlc
 	wget
     zoom
