@@ -7,7 +7,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 packages=(
 	aerc
  	balenaetcher
-	discord
  	emacs
 	google-japanese-ime
 	microsoft-excel
@@ -20,6 +19,7 @@ packages=(
 	ranger
  	thunderbird
   tree
+  vesktop
 	vlc
 	wget
     zoom
