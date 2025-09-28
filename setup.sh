@@ -48,6 +48,10 @@ killall Dock
 
 rm LICENSE README.md
 
+git clone --depth=1 https://github.com/github/copilot.vim.git \
+  ~/.vim/pack/github/start/copilot.vim
+#run :Copilot setup in vim
+
 """
 system settings
     keyboard layouts
