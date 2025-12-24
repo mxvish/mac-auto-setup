@@ -5,7 +5,6 @@ sudo mv -f Downloads downloads
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 packages=(
-	aerc
  	balenaetcher
  	emacs
 	google-japanese-ime
@@ -18,9 +17,8 @@ packages=(
 	r
 	ranger
  	thunderbird
-  tree
-  vesktop
-	vlc
+	tree
+	vesktop
 	wget
     zoom
 )
