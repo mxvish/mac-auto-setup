@@ -19,7 +19,6 @@ packages=(
  	thunderbird
 	tree
 	vesktop
-	wget
     zoom
 )
 
