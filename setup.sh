@@ -16,6 +16,7 @@ packages=(
 	python-tk
 	r
 	ranger
+  samba
  	thunderbird
 	tree
 	vesktop
