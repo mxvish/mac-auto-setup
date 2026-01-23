@@ -6,7 +6,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 packages=(
  	balenaetcher
+  btop
  	emacs
+  fastfetch
 	google-japanese-ime
 	microsoft-excel
 	microsoft-powerpoint
