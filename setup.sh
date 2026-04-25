@@ -5,23 +5,23 @@ sudo mv -f Downloads downloads
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 packages=(
- 	balenaetcher
+  balenaetcher
   btop
- 	emacs
+  emacs
   fastfetch
-	google-japanese-ime
-	microsoft-excel
-	microsoft-powerpoint
-	microsoft-word
-	nodejs
-	pdfsam-basic
-	python-tk
-	r
-	ranger
+  google-japanese-ime
+  microsoft-excel
+  microsoft-powerpoint
+  microsoft-word
+  nodejs
+  pdfsam-basic
+  python-tk
+  r
+  ranger
   samba
- 	thunderbird
-	tree
-	vesktop
+  thunderbird
+  tree
+  vesktop
   zoom
 )
 
