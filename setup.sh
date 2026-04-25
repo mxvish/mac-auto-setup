@@ -20,6 +20,7 @@ packages=(
   ranger
   samba
   thunderbird
+  tmux
   tree
   vesktop
   zoom
