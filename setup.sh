@@ -22,7 +22,7 @@ packages=(
  	thunderbird
 	tree
 	vesktop
-    zoom
+  zoom
 )
 
 for i in "${packages[@]}"; do 
