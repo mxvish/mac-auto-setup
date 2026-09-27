@@ -26,7 +26,7 @@ alias co='open https://consensus.app/search/'
 alias cr='cp -r'
 alias d='open https://drive.google.com/drive/my-drive'
 alias de='open https://deepl.com'
-alias di='open -a /Applications/Discord.app'
+alias di='open -a /Applications/Vesktop.app'
 alias dh='df -h'
 alias dl='ls -a ~/downloads'
 alias e='emacs'
@@ -67,8 +67,6 @@ function ii {
     open $url
     url+="+pixiv"
     open $url
-    url=`echo "$url" | sed 's/pixiv/dic.nicovideo/'`
-    open $url
 }
 alias in='open https://instagram.com'
 function j {
@@ -78,7 +76,7 @@ function j {
 }
 alias k='open https://keybr.com'
 alias ke='open https://keep.google.com'
-alias kn='open "https://www.kyorindo-netsuper.jp"'
+alias kn='open "https://www.kyorindo-netsuper.jp/shop/storetour_entry.php?shop_code=KRD_088"'
 alias l='open -a /Applications/LINE.app'
 alias la='open "https://github.com/mxvish/lab"'
 function lb {
@@ -89,27 +87,23 @@ function lb {
 alias le='less'
 alias lg='date +%H:%M; echo ${@}'
 alias lk='open https://www.linkedin.com/in/koshima/'
-alias m='open -a "/Applications/Thunderbird.app/"'
-#alias m='open -a "/Applications/Microsoft Outlook.app"'
-#alias mj='open https://www.muji.com/jp/ja/store'
+alias m='open https://mail.google.com/mail/u/0/'
 function mj {
     local url="https://www.muji.com/jp/ja/store/search/cmdty/"
     url+=${@}
     open $url
 }
 alias mk='mkdir'
-alias ml='open https://mail.google.com/mail/u/0/'
 alias mn='open "https://mypage-shinsotsusyokai.mynavi.jp/top?gig_actions=sso.login"'
 alias mp='mpg321 -qg 10'
-#alias mp='mpg321 -qg 3'
 alias mu='open "https://entry11.bk.mufg.jp/ibg/dfw/APLIN/loginib/login?_TRANID=AA000_001&link_id=direct_zandaka_login"'
+alias my='open "https://music.youtube.com/playlist?list=LM"'
 alias n='open https://github.com/mxvish/private'
 alias no='open https://www.jorudan.co.jp/norikae/'
-alias o='open -a /Applications/Safari.app "https://onedrive.live.com/?gologin=1"'
+alias o='open "https://onedrive.live.com/?view=0"'
 alias op='v ~/.zshrc;source ~/.zshrc'
 alias ou='open https://outlook.office.com/mail'
 alias p='python3'
-alias pa='open https://paypal.com/'
 alias pb='pbcopy <'
 alias pe='open https://www.perplexity.ai/'
 alias pl='open https://plus.nhk.jp/'
@@ -131,7 +125,6 @@ function rc {
 }
 alias re='open https://reddit.com'
 alias rr='rm -rf'
-alias rs='open "https://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html"'
 alias s='open https://app.slack.com/client'
 function sg {
     local url="https://scholar.google.com/scholar?q="
@@ -150,6 +143,7 @@ alias sy='open /System/Applications/System\ Settings.app '
 alias t='open https://todoist.com/app'
 alias te='x /Applications/Microsoft\ Teams.app'
 alias tg='open https://translate.google.com'
+alias ti='open https://www.tiktok.com/friends'
 alias tv='open https://tver.jp/mypage/fav'
 alias u='brew doctor; brew update; brew upgrade; npm install -g npm@latest'
 alias up='uptime'
